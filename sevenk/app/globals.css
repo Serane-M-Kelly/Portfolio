@@ -4,72 +4,58 @@
 
 @layer base {
   :root {
-    --radius: 0.625rem;
-    --background: oklch(1 0 0);
-    --foreground: oklch(0.145 0 0);
-    --card: oklch(1 0 0);
-    --card-foreground: oklch(0.145 0 0);
-    --popover: oklch(1 0 0);
-    --popover-foreground: oklch(0.145 0 0);
-    --primary: oklch(0.205 0 0);
-    --primary-foreground: oklch(0.985 0 0);
-    --secondary: oklch(0.97 0 0);
-    --secondary-foreground: oklch(0.205 0 0);
-    --muted: oklch(0.97 0 0);
-    --muted-foreground: oklch(0.556 0 0);
-    --accent: oklch(0.97 0 0);
-    --accent-foreground: oklch(0.205 0 0);
-    --destructive: oklch(0.577 0.245 27.325);
-    --border: oklch(0.922 0 0);
-    --input: oklch(0.922 0 0);
-    --ring: oklch(0.708 0 0);
-    --chart-1: oklch(0.646 0.222 41.116);
-    --chart-2: oklch(0.6 0.118 184.704);
-    --chart-3: oklch(0.398 0.07 227.392);
-    --chart-4: oklch(0.828 0.189 84.429);
-    --chart-5: oklch(0.769 0.188 70.08);
-    --sidebar: oklch(0.985 0 0);
-    --sidebar-foreground: oklch(0.145 0 0);
-    --sidebar-primary: oklch(0.205 0 0);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.97 0 0);
-    --sidebar-accent-foreground: oklch(0.205 0 0);
-    --sidebar-border: oklch(0.922 0 0);
-    --sidebar-ring: oklch(0.708 0 0);
+    --background: 25 70% 98%;
+    --foreground: 25 67% 4%;
+    --muted: 25 30% 95%;
+    --muted-foreground: 25 2% 29%;
+    --popover: 25 70% 98%;
+    --popover-foreground: 25 67% 4%;
+    --card: 25 70% 98%;
+    --card-foreground: 25 67% 4%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --primary: 25 31% 75%;
+    --primary-foreground: 25 31% 15%;
+    --secondary: 25 18% 90%;
+    --secondary-foreground: 25 18% 30%;
+    --accent: 25 23% 83%;
+    --accent-foreground: 25 23% 23%;
+    --destructive: 13 96% 20%;
+    --destructive-foreground: 13 96% 80%;
+    --ring: 25 31% 75%;
+    --chart-1: 25 31% 75%;
+    --chart-2: 25 18% 90%;
+    --chart-3: 25 23% 83%;
+    --chart-4: 25 18% 93%;
+    --chart-5: 25 34% 75%;
+    --radius: 0.5rem;
   }
 
   .dark {
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.488 0.243 264.376);
-    --chart-2: oklch(0.696 0.17 162.48);
-    --chart-3: oklch(0.769 0.188 70.08);
-    --chart-4: oklch(0.627 0.265 303.9);
-    --chart-5: oklch(0.645 0.246 16.439);
-    --sidebar: oklch(0.205 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.488 0.243 264.376);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.556 0 0);
+    --background: 25 41% 2%;
+    --foreground: 25 21% 98%;
+    --muted: 25 30% 5%;
+    --muted-foreground: 25 2% 71%;
+    --popover: 25 41% 2%;
+    --popover-foreground: 25 21% 98%;
+    --card: 25 41% 2%;
+    --card-foreground: 25 21% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --primary: 25 31% 75%;
+    --primary-foreground: 25 31% 15%;
+    --secondary: 25 5% 14%;
+    --secondary-foreground: 25 5% 74%;
+    --accent: 25 11% 20%;
+    --accent-foreground: 25 11% 80%;
+    --destructive: 13 96% 49%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 25 31% 75%;
+    --chart-1: 25 31% 75%;
+    --chart-2: 25 5% 14%;
+    --chart-3: 25 11% 20%;
+    --chart-4: 25 5% 17%;
+    --chart-5: 25 34% 75%;
   }
 }
 
@@ -80,4 +66,21 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@font-face {
+  font-family: "Ghibli";
+  src: url("/fonts/Ghibli.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ghibli_Bold";
+  src: url("/fonts/Ghibli_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: "Ghibli";
 }

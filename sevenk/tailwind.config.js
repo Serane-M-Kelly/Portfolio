@@ -15,6 +15,12 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      sans: ["var(--font-geist-sans)"],
+      mono: ["var(--font-geist-mono)"],
+      ghibli: ["var(--font-ghibli)"],
+      "ghibli-bold": ["var(--font-ghibli-bold)"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
